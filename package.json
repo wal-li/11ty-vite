@@ -1,0 +1,32 @@
+{
+  "name": "@wal-li/11ty-vite",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "example": "npm run build && cd example && npm run dev"
+  },
+  "keywords": [
+    "11ty",
+    "vite"
+  ],
+  "author": "HaoVA <hi@haova.me> (https://www.haova.me)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.14.8",
+    "typescript": "^5.5.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wal-li/11ty-vite.git"
+  },
+  "dependencies": {
+    "vite": "^5.3.1"
+  }
+}
